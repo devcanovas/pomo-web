@@ -2,7 +2,7 @@ import { PawPrint } from "lucide-react";
 
 export function Menu() {
   return (
-    <header className="flex shadow-lg p-4 items-center gap-2 justify-center fixed top-0 left-0 right-0 bg-zinc-900">
+    <header className="flex shadow-lg p-4 items-center gap-2 justify-center fixed top-0 left-0 right-0 backdrop-blur-sm">
       <PawPrint />
       <svg
         width="147"
