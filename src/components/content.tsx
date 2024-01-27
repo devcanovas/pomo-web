@@ -10,8 +10,8 @@ export function Content() {
           </h1>
           <img src="/icons/logo-pomo.png" />
           <button className="bg-white text-black py-4 px-6 rounded-full flex gap-4 items-center text-center">
-            <Download className="w-16 h-16 lg:w-5 lg:h-5" color="#FE4F60" />
-            <a href="https://raw.githubusercontent.com/devcanovas/pomov2/master/pomov2_0.0.0_x64_en-US.msi">
+            <Download className="w-6 h-6 lg:w-5 lg:h-5" color="#FE4F60" />
+            <a className="hidden md:block" href="https://raw.githubusercontent.com/devcanovas/pomov2/master/pomov2_0.0.0_x64_en-US.msi">
               Download POMO - vBeta 0.1
             </a>
           </button>
